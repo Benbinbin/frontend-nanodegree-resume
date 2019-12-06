@@ -2,117 +2,28 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 
-// $("#main").append("BenThomson")
-
-// [string].replace([old], [new]);
-
-// var name = "BenThomson";
-// var awesomeThoughts = "I am " + name + " and I an AWESOME!";
-
-// console.log(awesomeThoughts);
-
-// var funThoughts = awesomeThoughts.replace("AWESOME", "FUN");
-
-// $("#main").append(funThoughts);
-
-// var formattedName = HTMLheaderName.replace("%data%", "BenThomson");
-// var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
-
-// $("#header").prepend(formattedRole);
-// $("#header").prepend(formattedName);
-
-// var sampleArray = [0,0,7];
-
-// var incrementLastArrayElement = function(_array) {
-//     var newArray = [];
-    // Your code should make newArray equal to an array that has the same
-    // values as _array, but the last number has increased by one.
-    
-    // For example:
-    // _array = [1, 2, 3];
-    // turns into:
-    // newArray = [1, 2, 4];
-    
-    // Your code goes in here!
-//     var last = sampleArray.pop();
-    
-//     newArray = sampleArray;
-
-//     newArray.push(last+1);
-    
-//     // Don't delete this line!
-//     return newArray;
-// };
-
-// // Did your code work? The line below will tell you!
-// console.log(incrementLastArrayElement(sampleArray));
-
-// var name = "AlbERt EINstEiN";
-
-// function nameChanger(oldName) {
-//     // Your code goes here!
-//     nameList = oldName.split(' ');
-//     nameList[0] = nameList[0][0].toUpperCase() + nameList[0].slice(1).toLowerCase();
-//     nameList[1] = nameList[1].toUpperCase();
-//     var finalName = nameList.join(' ');
-//     // Don't delete this line!
-//     return finalName;
-// };
-
-// // Did your code work? The line below will tell you!
-// console.log(nameChanger(name));
-
-
-
-// var education = {};
-// education["name"] = "Home self-internet University";
-// education["years"] = "2018-2019";
-// education["city"] = "Earth";
-
-// var work = {
-//     "jobs": [{
-//         "employer": "Planet Express",
-//         "title": "Delivery Boy",
-//         "dates": "January 3000- Future",
-//         "description": "Who moved my cheese cheesy fect cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie, Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
-//     }, 
-//     {
-//         "employer": "Panucci's Pizza",
-//         "title": "Delivery Boy",
-//         "dates": "1998-December 31, 1999",
-//         "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecakc. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
-//     }]
-// }
-
 var work = {
     "jobs": [
       {
-        "employer": "Udacity",
-        "title": "Course Developer",
-        "location": "Mountain View, CA",
-        "dates": "Feb 2014 - Current",
-        "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+        "employer": "工作模板一",
+        "title": "设计师",
+        "location": "深圳",
+        "dates": "2020/01 - 当前",
+        "description": "预留空间，在此填写详细信息。"
       },
       {
-        "employer": "LearnBIG",
-        "title": "Software Engineer",
-        "location": "Seattle, WA",
-        "dates": "May 2013 - Jan 2014",
-        "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+        "employer": "工作模板二",
+        "title": "初级数据分析师",
+        "location": "北京",
+        "dates": "2020/09 - 2021/03",
+        "description": "预留空间，在此填写详细信息。"
       },
       {
-        "employer": "LEAD Academy Charter High School",
-        "title": "Science Teacher",
-        "location": "Nashville, TN",
-        "dates": "Jul 2012 - May 2013",
-        "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
-      },
-      {
-        "employer": "Stratford High School",
-        "title": "Science Teacher",
-        "location": "Nashville, TN",
-        "dates": "Jun 2009 - Jun 2012",
-        "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg."
+        "employer": "工作模板三",
+        "title": "数据可视化研究员",
+        "location": "浙江",
+        "dates": "2023/09 - ~",
+        "description": "预留空间，在此填写详细信息。"
       }
     ]
   };
@@ -120,11 +31,11 @@ var work = {
 var projects = {
     "projects": [
         {
-            "title": "Sample Project 1",
-            "dates": "2014",
-            "description": "Who moved my cheese cheesy feet cauliflower cheese. Queso taleggio when the cheese comes out everybody's happy airedale ricotta cheese and wine paneer camembert de normandie. Swiss mozzarella cheese slices feta fromage frais airedale swiss cheesecake. Hard cheese blue castello halloumi parmesan say cheese stinking bishop jarlsberg. ",
+            "title": "项目模板",
+            "dates": "2019",
+            "description": "预留空间，在此填写详细信息。",
             "images": [
-                "https://pbs.twimg.com/profile_images/917232737227964416/NudWD1d5_400x400.jpg", "http://bcaffo.github.io/MOOCtalk/fig/udacity.png"
+                "http://placekitten.com/400/200", "http://placekitten.com/400/200"
             ]
         }
     ]
@@ -133,107 +44,105 @@ var projects = {
 var education = {
     "school": [
         {
-            "name": "Sun Yat-Sen University",
-            "location": "Guangzhou",
-            "degree": "Master",
-            "major": ["CS"],
-            "dates": 2022,
+            "name": "大学模板一",
+            "location": "广州",
+            "degree": "本科",
+            "major": ["设计"],
+            "dates": 2017,
             "url": "http://example.com"
         },
         {
-            "name": "Home self-internet University",
-            "location": "Earth",
-            "degree": "Master",
-            "major": ["CS"],
-            "dates": 2019,
+            "name": "大学模板二",
+            "location": "浙江",
+            "degree": "研究生",
+            "major": ["设计"],
+            "dates": 2021,
             "url": "http://example.com"
         }
     ],
     "onlineCourses": [
         {
-            "title": "JavaScript Syntax",
+            "title": "前端工程师",
             "school": "Udacity",
-            "dates": 2014,
-            "url": "http://www.udacity.com/course/ud304"
+            "dates": 2019,
+            "url": "http://www.udacity.com"
         }
     ]
 }
 
 var bio = {
     name: "Ben Thomson",
-    role: "Web Developer",
+    role: "前端工程师",
     contact: {
-        mobile: "88-88-88",
+        mobile: "666-66-666",
         email: "mebeansbin@gmail.com",
         github: "https://github.com/BenThomsonBin",
-        twitter: "@johnodoe",
-        location: "San Francisco"
+        Weibo: "@BenThomson",
+        location: "香港"
     },
     bioPic: "images/fry.jpg",
-    welcomeMessage: "Hey, this is my resume.",
-    skills: ["awesomeness", "delivering things", "cryogenic sleep", "saving the universe"]
+    welcomeMessage: "这是我的简历模板",
+    skills: ["厉害了", "啥都想会一点", "主要瞎折腾", "项目为主导的学习模式"]
 }
 
-// var work = {};
-// work.position = "Course Developer";
-// work.employer = "Udacity";
-// work.years = 0.3;
+// 增添个人信息模块
+bio.display = function() {
+    var formattedHTMLheaderRole = HTMLheaderRole.replace("%data%", bio.role);
+    var formattedHTMLheaderName = HTMLheaderName.replace("%data%", bio.name);
 
-// $("#header").prepend(bio.role);
-// $("#header").prepend(bio.name);
-// $("#main").append(work["position"]);
-// $("#main").append(education.name);
-var formattedHTMLheaderRole = HTMLheaderRole.replace("%data%", bio.role);
-var formattedHTMLheaderName = HTMLheaderName.replace("%data%", bio.name);
+    $("#header").prepend(formattedHTMLheaderRole);
+    $("#header").prepend(formattedHTMLheaderName);
 
-$("#header").prepend(formattedHTMLheaderRole);
-$("#header").prepend(formattedHTMLheaderName);
+    for(key in bio.contact) {
+        var formattedHTMLcontact = HTMLcontactGeneric.replace("%contact%", key).replace("%data%", bio.contact[key]);
+        
+        $("#topContacts").append(formattedHTMLcontact);
+    }
 
-for(key in bio.contact) {
-    var formattedHTMLcontact = HTMLcontactGeneric.replace("%contact%", key).replace("%data%", bio.contact[key]);
-    
-    $("#topContacts").append(formattedHTMLcontact);
+    var formattedHTMLbioPic = HTMLbioPic.replace("%data%", bio.bioPic)
+
+    $("#header").append(formattedHTMLbioPic);
+
+    if(bio.skills.length > 0) {
+        
+        $("#header").append(HTMLskillsStart);
+
+        var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
+        $("#skills").append(formattedSkill);
+
+        var formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
+        $("#skills").append(formattedSkill);
+
+        var formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
+        $("#skills").append(formattedSkill);
+
+        var formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
+        $("#skills").append(formattedSkill);
+
+    }
 }
 
-var formattedHTMLbioPic = HTMLbioPic.replace("%data%", bio.bioPic)
+bio.display();
 
-$("#header").append(formattedHTMLbioPic);
+// $(document).click(function(loc) {
+//     logClicks(loc.pageX, loc.pageY);
+// });
 
-if(bio.skills.length > 0) {
-    
-    $("#header").append(HTMLskillsStart);
+// function locationizer(work_obj) {
+//     var locations = [];
 
-    var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-    $("#skills").append(formattedSkill);
+//      work_obj["jobs"].forEach(function(job) {
+//          locations.push(job.location);
+//      });
 
-    var formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-    $("#skills").append(formattedSkill);
+//      return locations;
+// }
 
-    var formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-    $("#skills").append(formattedSkill);
-
-    var formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-    $("#skills").append(formattedSkill);
-
-}
+// console.log(locationizer(work));
 
 
-$(document).click(function(loc) {
-    logClicks(loc.pageX, loc.pageY);
-});
 
-function locationizer(work_obj) {
-    var locations = [];
-
-     work_obj["jobs"].forEach(function(job) {
-         locations.push(job.location);
-     });
-
-     return locations;
-}
-
-console.log(locationizer(work));
-
+// 一键转换名字为国际模式：family name 全大写
 var name = bio.name;
 function inName(name) {
     nameList = name.split(' ');
@@ -245,22 +154,50 @@ function inName(name) {
 
 $("#main").append(internationalizeButton);
 
-for(job in work.jobs) {
-    $("#workExperience").append(HTMLworkStart)
+// 增添教育模块
+education.display = function() {
+    for(x in education.school) {
+        $("#education").append(HTMLschoolStart)
 
-    var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
-    var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
-    var formattedEmployerTitle = formattedEmployer + formattedTitle;
+        var formattedName = HTMLschoolName.replace("%data%", education.school[x].name);
+        var formattedDegree = HTMLschoolDegree.replace("%data%", education.school[x].degree);
+        var formattedDates = HTMLschoolDates.replace("%data%", education.school[x].dates);
+        var formattedLocation = HTMLschoolLocation.replace("%data%", education.school[x].location);
+        var formattedMajor = HTMLschoolMajor.replace("%data%", education.school[x].major);
 
-    var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
-    var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
-
-    $(".work-entry:last").append(formattedEmployerTitle);
-    $(".work-entry:last").append(formattedDates);
-    $(".work-entry:last").append(formattedDescription);
+        $(".education-entry:last").append(formattedName);
+        $(".education-entry:last").append(formattedDegree);
+        $(".education-entry:last").append(formattedDates);
+        $(".education-entry:last").append(formattedLocation);
+        $(".education-entry:last").append(formattedMajor);
+    }
 }
 
+education.display();
 
+// 增添工作模块
+work.display = function() {
+    for(job in work.jobs) {
+        $("#workExperience").append(HTMLworkStart)
+
+        var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
+        var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
+        var formattedEmployerTitle = formattedEmployer + formattedTitle;
+
+        var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates);
+        var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
+
+        $(".work-entry:last").append(formattedEmployerTitle);
+        $(".work-entry:last").append(formattedDates);
+        $(".work-entry:last").append(formattedDescription);
+    }
+}
+
+work.display();
+
+
+
+// 增添项目模块
 projects.display = function() {
     for (project in projects.projects) {
         $("#projects").append(HTMLprojectStart);
@@ -278,12 +215,11 @@ projects.display = function() {
                 var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);
                 $(".project-entry:last").append(formattedImage);
             }
-        
         }
     }   
 }
 
 projects.display();
 
-// here' a map
-$("#mapDiv").append(googleMap);
+// 增添足迹模块
+$("#mapDiv").append(gaodeMap);
