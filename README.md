@@ -4,7 +4,7 @@
 
 ## 项目截图
 
-![Resume](img\Resume.png)
+![Resume](img/Resume.png)
 
 ---
 
